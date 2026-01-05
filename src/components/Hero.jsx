@@ -17,7 +17,7 @@ function Hero() {
        </div>
        <div>
         <p>
-          Full Stack Developer
+          Full Stack Developer 🙋‍♂️
         </p>
        </div>
        <div>
@@ -26,6 +26,7 @@ function Hero() {
         </p>
        </div>
       </aside>
+     
     </section>
   );
 }

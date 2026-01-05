@@ -6,6 +6,7 @@ nav {
   height: 75px;
   padding: 15px;
   column-gap: 750px;
+  font-family: custom-font;
 }
 
 .text-logo {
