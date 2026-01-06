@@ -26,20 +26,25 @@
 .hero-section{
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
-  border: 1px solid green;
+  height: 655px;
+  align-items: center;
 }
 
 .hero-text{
-  border: 1px solid black;
-  height: 200px;
+  border: 1px solid white;
+  color: white;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 500px;
+  width: 600px;
   padding: 15px;
   font-family: custom-font;
   animation: left 2s ease;
+}
+
+.hero-name{
+  font-size: 50px;
 }
 
 @keyframes left{
@@ -50,4 +55,18 @@
   100%{
     transform: translateX(0px) scale(1);
   }
+}
+
+.btns{
+  padding-top: 20px;
+}
+
+.click {
+  text-decoration: none;
+  color: white;
+}
+
+.click:hover{
+  background-color: rgb(13, 116, 243);
+  color: white
 }

@@ -8,9 +8,8 @@ function NavBar() {
           <h1 className='text-logo'>Hi!, I'm Peter 👋</h1>
         </div>
         <ul className='text-container'>
-          <li className='nav-text'>Home</li>
-          <li className='nav-text'>Projects</li>
-          <li className='nav-text'>Contacts</li>
+          <li><a className='nav-text' href='#hero-section'>Home</a> </li>
+          <li><a className='nav-text' href='#skills'>Skills</a> </li>
         </ul>
       </nav>
   );

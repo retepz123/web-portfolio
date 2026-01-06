@@ -4,14 +4,15 @@ import '../css-files/hero.css';
 function Hero() {
 
   return (
-    <section className='hero-section'>
+    <section id='hero-section' className='hero-section'>
       <div className='pic'>
         <img src={Me} alt='Me' className='me' />
       </div>
 
-      <aside className='hero-text'>
+     <div>
+       <aside className='hero-text'>
        <div>
-         <h1>
+         <h1 className='hero-name'>
           Hi, I am Peter John,
         </h1>
        </div>
@@ -25,8 +26,12 @@ function Hero() {
           Full-Stack Developer transitioning ideas into working MERN apps
         </p>
        </div>
+       <div className='btns'>
+        <a className='click' href='#project'>[ My Projects ]</a>
+      </div>
       </aside>
-     
+      
+     </div>
     </section>
   );
 }
