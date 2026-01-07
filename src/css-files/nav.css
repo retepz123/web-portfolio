@@ -1,8 +1,15 @@
+@media (min-width: 350px) and (max-width: 600px){
+  nav{
+    display: flex;
+    width: 100%;
+  }
+}
+
 nav {
   background-color: darkblue;
   display: flex;
   justify-content: center;
-  width: auto;
+  width: 1510px;
   height: 75px;
   padding: 15px;
   column-gap: 750px;
