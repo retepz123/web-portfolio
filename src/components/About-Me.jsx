@@ -21,7 +21,7 @@ and solving real-world problems.
       </div>
       
       <div className='hire'>
-        <p>You should hire me because I bring a strong learning mindset, solid full-stack fundamentals, and the ability to turn requirements into working features. I’ve trained in building real MERN applications—handling frontend UI with React, backend logic with Node.js, and data with MongoDB. As a career shifter, I’m highly motivated, disciplined, and used to learning quickly. I focus on writing clean, maintainable code and I’m comfortable collaborating, debugging, and improving based on feedback.</p>
+        <p>You should hire me because I have strong full-stack fundamentals and a fast-learning mindset. I’ve built real MERN applications using React, Node.js, and MongoDB, turning requirements into working features. As a career shifter, I’m highly motivated, disciplined, and comfortable collaborating, debugging, and improving through feedback.</p>
       </div>
       </div>
     </div>

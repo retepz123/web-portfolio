@@ -15,7 +15,7 @@ function Project() {
               <div className='proj-text'>
                 <h3>{p.name}</h3>
                 <p>{p.description}</p>
-                <a href={p.url} target='_blank'  rel="noopener noreferrer" >Click</a>
+                <a className='proj-btn' href={p.url} target='_blank'  rel="noopener noreferrer" >Click</a>
               </div>
             </div>
         ))}
