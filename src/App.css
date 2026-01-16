@@ -1,12 +1,12 @@
 @media (min-width: 350px) and (max-width: 600px){
   main{
-    width: 100%;
+    width: 600px;
   }
 }
 
 
 main {
-  width: 1510px;
+  width: 1521px;
   background: linear-gradient(180deg, #08203e, #557c93);
   color: white;
 }
